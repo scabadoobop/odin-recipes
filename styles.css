@@ -1,0 +1,63 @@
+.darkmode {
+    background-color: black;
+    color: white;
+}
+
+#title,
+#description,
+#ingredients,
+#steps,
+#navigation {
+    color: gold;
+    text-align: center;
+}
+
+#title {
+    font-size: 72px;
+}
+
+#description,
+#ingredients,
+#steps,
+#navigation {
+    font-size: 45px;
+}
+
+a {
+    font-size: 30px;
+}
+
+p {
+    font-size: 25px;
+    text-align: center;
+}
+
+.centerlink {
+    text-align: center;
+    display: block;
+}
+
+.centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sizeimg {
+    height: auto;
+    width: 500px;
+}
+
+ul,
+ol {
+    list-style-position: inside;
+    display: inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+ul li,
+ol li {
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
